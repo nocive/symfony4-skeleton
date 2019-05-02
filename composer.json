@@ -79,6 +79,12 @@
             "@cs-check",
             "@phpstan"
         ],
+        "test-unit": [
+            "bin/phpunit --testsuite unit --verbose --stderr"
+        ],
+        "test-integration": [
+            "bin/phpunit --testsuite integration --verbose --stderr"
+        ],
         "composer-validate": [
             "composer validate"
         ],
